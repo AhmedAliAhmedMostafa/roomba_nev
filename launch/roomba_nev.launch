@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+  
+
+
+		
+ 
+
+   <include file="$(find RoboMaid_sim)/launch/slam.launch" />
+   <include file="$(find explore_lite)/launch/explore.launch" />
+   <include file="$(find roomba_nev)/launch/move_base.launch" />
+
+
+ 
+</launch>
+
